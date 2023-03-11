@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+
+<button [disabled]="clicked" (click)="clickingIt()">Er bottone</button>
+
+<div *ngIf="clicked">
+  <div *ngFor="let matto of matti">
+    <p [ngClass]="{
+      'red' : matto.name === 'Cicoria',
+      'green' : matto.name === 'Giacomo'
+    }">
+      {{matto.epithet}}
+    </p>
+    <p appSize>{{matto.name}}</p><br>
+  </div>
+</div>
+
