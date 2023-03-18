@@ -1,7 +1,6 @@
 body {
     background-color: rgba(29, 59, 97);
-    min-height: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 app-navbar {
@@ -24,14 +23,27 @@ app-navbar {
 }
 
 .left-sidebar {
+    float: left;
     width: 20%;
 }
 
 .router-container {
-    width: 100%;
-    background-color: aquamarine;
+    width: 60vw;
+    background-color: rgb(127, 197, 255);
 }
 
 .right-sidebar {
+    float: right;
     width: 20%;
+}
+
+app-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background-color: rgba(54, 136, 230, 0.671);
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: scroll;
 }

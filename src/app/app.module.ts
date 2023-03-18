@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const appRoute: Routes = [
@@ -30,6 +31,7 @@ const appRoute: Routes = [
     NavbarComponent,
     AboutComponent,
     ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
