@@ -1,7 +1,9 @@
 mat-toolbar {
-    background-color: rgb(0, 255, 255, 0.3);
+    background-color: rgb(21, 167, 21);
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 0;
     height: 6%;
     min-height: 45px;
 }
@@ -24,17 +26,17 @@ a:hover {
 }
 
 #home-button {
-    height: 60%;
+    height: 70%;
     margin-right: 0.5%;
 }
 
 #about-button {
-    height: 60%;
+    height: 70%;
     margin-right: 0.5%;
 }
 
 #contact-button {
-    height: 60%;
+    height: 70%;
 }
 
 .nav-spacer {

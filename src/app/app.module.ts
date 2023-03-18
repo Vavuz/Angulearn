@@ -29,7 +29,7 @@ const appRoute: Routes = [
     SizeDirective,
     NavbarComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

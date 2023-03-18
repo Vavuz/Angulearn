@@ -1,7 +1,30 @@
 body {
-    background-color: rgb(202, 238, 240);
+    background-color: rgba(29, 78, 238, 0.808);
+}
+
+app-navbar {
+    display: flex;
+    opacity: 0.7;
+}
+
+.top-mountain {
+    width: 100%;
 }
 
 .top-space {
-    height: 10%;
+    height: 10vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-sidebar {
+    width: 20%;
+}
+
+.right-sidebar {
+    width: 20%;
 }
