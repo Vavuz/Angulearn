@@ -1,5 +1,7 @@
 body {
-    background-color: rgba(29, 78, 238, 0.808);
+    background-color: rgba(29, 59, 97);
+    min-height: 100%;
+    overflow: scroll;
 }
 
 app-navbar {
@@ -11,7 +13,7 @@ app-navbar {
     width: 100%;
 }
 
-.top-space {
+.top-bottom-space {
     height: 10vh;
 }
 
@@ -23,6 +25,11 @@ app-navbar {
 
 .left-sidebar {
     width: 20%;
+}
+
+.router-container {
+    width: 100%;
+    background-color: aquamarine;
 }
 
 .right-sidebar {
